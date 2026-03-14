@@ -88,6 +88,8 @@ server.on('listening', () => {
   console.log(chalk.cyan('-----------------------------------------------'));
   console.log(chalk.blue('💬 Discord: ') + chalk.underline(discord));
   console.log(chalk.cyan('-----------------------------------------------'));
+  console.log(chalk.red('Hosted By Thecatkidx3');
+  console.log(chalk.blue('Thecatkidx3 Discord: https://discord.com/users/1280233494936813761');
 });
 
 function shutdown(signal) {
